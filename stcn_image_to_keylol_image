@@ -1,0 +1,19 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "keylol图片",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "https://blob.steamcn.com/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://blob.keylol.com/"
+		}
+	],
+	"sendHeader": [],
+	"receiveHeader": [],
+	"receiveBody": []
+}

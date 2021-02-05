@@ -1,0 +1,18 @@
+{
+        "request": [
+                {
+                        "enable": true,
+                        "name": "Keyhub",
+                        "ruleType": "cancel",
+                        "matchType": "regexp",
+                        "pattern": "https://ipapi.co/json*",
+                        "exclude": "",
+                        "group": "Ungrouped",
+                        "isFunction": false,
+                        "action": "cancel"
+                }
+        ],
+        "sendHeader": [],
+        "receiveHeader": [],
+        "receiveBody": []
+}
